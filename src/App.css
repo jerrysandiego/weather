@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+
+@media (min-width: 600px) {
+  .list {
+    color: rgb(16, 105, 179);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1600px) {
+  .list {
+    color: rgb(16, 105, 179);
+    font-size: 0.5rem;
+    flex-direction: row;
+  }
+}
+
+  
+.item {
+  background-color: rgb(216, 122, 14);
+  display: inline;
+}
+
+
